@@ -2,7 +2,7 @@ import express from 'express'
 import avatarsMiddleware from 'adorable-avatars'
 
 const app = express()
-const port = process.env.AVATARS_PORT || 8080
+const port = process.env.PORT || 3000
 
 app.use('/', avatarsMiddleware)
 
